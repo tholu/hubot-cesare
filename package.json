@@ -1,0 +1,31 @@
+{
+  "name": "hubot-cesare",
+  "description": "A De Cesare Menu service for Hubots",
+  "version": "1.0.0",
+  "author": "Thomas Lutz <thomaslutz.de@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tholu/hubot-cesare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tholu/hubot-cesare/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "hubot-test-helper": "^1.3.0",
+    "mocha": "*",
+    "nock": "^3.3.2"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha -R spec --compilers coffee:coffee-script test/cesare.coffee"
+  }
+}
