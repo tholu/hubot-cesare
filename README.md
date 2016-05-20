@@ -26,6 +26,10 @@ Add **hubot-cesare** to your `external-scripts.json`:
 ["hubot-cesare"]
 ```
 
+For the bot to work properly, you need an Facebook app access token to get the latest Facebook post from the De Cesare Facebook page.
+The app access token is `<App ID>|<App Secret>`. 
+Set it as an environment variable `HUBOT_FACEBOOK_APP_ACCESS_TOKEN` to let `hubot-cesare` use it.
+
 ## Sample Interaction
 
 ```
