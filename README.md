@@ -30,5 +30,5 @@ Add **hubot-cesare** to your `external-scripts.json`:
 
 ```
 user1>> hubot cesare
-hubot>> 
+hubot>> 20.05. - Menu Today
 ```
